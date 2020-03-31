@@ -5,6 +5,7 @@
 <script src="riffwave.js"></script>
 <script src="Blob.js"></script>
 <script src="FileSaver.min.js"></script>
+<script src="hangul.min.js" type="text/javascript"></script>
 <script src="animalese.js"></script>
 <script>
 function dataURItoBlob(dataURI) {
@@ -27,7 +28,7 @@ function dataURItoBlob(dataURI) {
   return new Blob([ia], {type:mimeString});
 }
 
-var synth = new Animalese('animalese.wav', function() {
+var synth = new Animalese('https://yeansang.github.io/animaleseko/animalese.wav', function() {
   document.getElementById("preview").disabled = false;
   document.getElementById("download").disabled = false;
 });
@@ -36,22 +37,21 @@ function preview() {
   var audio = new Audio();
   audio.src =
     synth.Animalese(document.getElementById("text").value,
-                    document.getElementById("shorten").checked).dataURI;
+                    false).dataURI;
   audio.play();
 }
 
 function download() {
   var wave = synth.Animalese(document.getElementById("text").value).dataURI;
-  saveAs(dataURItoBlob(wave), "animalese.wav");
+  saveAs(dataURItoBlob(wave), "https://yeansang.github.io/animaleseko/animalese.wav");
 }
 
 </script>
 <body>
-    <h2>animalese.js Demo</h2>
-    <p>More information and the source at <a href="https://github.com/Acedio/animalese.js">https://github.com/Acedio/animalese.js</a>.</p>
-    <textarea id="text" rows"4" cols="50">Testing out animalese.js. Did it work?</textarea><br/>
-    <label><input id="shorten" type="checkbox"/>Shorten</label><br/>
-    <button id="preview" type="button" disabled="true" onclick="preview()">Preview!</button>
-    <button id="download" type="button" disabled="false" onclick="download()">Download!</button>
+    <h2>동물어 Demo</h2>
+    <p></p>
+    <textarea id="text" rows"4" cols="50">테스트에요 그런것이에요</textarea><br/>
+    <br/>
+    <button id="preview" type="button" disabled="true" onclick="preview()">재생</button>
 </body>
 </html>
