@@ -33,7 +33,7 @@
                 {
                     "id":4,
                     "user_id":1001,
-                    "text":"안녕하세요.",
+                    "text":"화면은 [이미지1](https://static.rocketpunch.com/mini_project_app_1.png) [이미지2](https://static.rocketpunch.com/mini_project_app_2.png) 를 참고로 하여 작성해주시길 바랍니다. (화면의 모든 기능이 꼭 존재할 필요는 없습니다.)",
                     "date": 1595740355
                 },
                 {
@@ -70,7 +70,7 @@
                 {
                     "id":3,
                     "user_id":2,
-                    "text":"안녕하세요.",
+                    "text":"화면은 [이미지1](https://static.rocketpunch.com/mini_project_app_1.png) [이미지2](https://static.rocketpunch.com/mini_project_app_2.png) 를 참고로 하여 작성해주시길 바랍니다. (화면의 모든 기능이 꼭 존재할 필요는 없습니다.)",
                     "date": 1595740455
                 },
                 {
