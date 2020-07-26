@@ -1,0 +1,91 @@
+{
+    "result_code" : 0,
+    "result": [
+        {
+            "room_id":1,
+            "connect_users":[
+                {
+                    "user_name":"최길동",
+                    "user_id":1,
+                    "user_desc":"CTO @가가컴퍼니",
+                    "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+                }
+            ],
+            "chats":[
+                {
+                    "id":1,
+                    "user_id":1,
+                    "text":"안녕하세요.",
+                    "date": 1595740655
+                },
+                {
+                    "id":2,
+                    "user_id":1001,
+                    "text":"안녕하세요.",
+                    "date": 1595740555
+                },
+                {
+                    "id":3,
+                    "user_id":1,
+                    "text":"안녕하세요.",
+                    "date": 1595740455
+                },
+                {
+                    "id":4,
+                    "user_id":1001,
+                    "text":"안녕하세요.",
+                    "date": 1595740355
+                },
+                {
+                    "id":5,
+                    "user_id":1,
+                    "text":"안녕하세요.",
+                    "date": 1595740255
+                },
+            ]
+        },
+        {
+            "room_id":2,
+            "connect_users":[
+                {
+                    "user_name":"강길동",
+                    "user_id":2,
+                    "user_desc":"CTO @나나컴퍼니",
+                    "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+                }
+            ],
+            "chats":[
+                {
+                    "id":1,
+                    "user_id":2,
+                    "text":"안녕하세요.",
+                    "date": 1595740655
+                },
+                {
+                    "id":2,
+                    "user_id":1001,
+                    "text":"안녕하세요.",
+                    "date": 1595740555
+                },
+                {
+                    "id":3,
+                    "user_id":2,
+                    "text":"안녕하세요.",
+                    "date": 1595740455
+                },
+                {
+                    "id":4,
+                    "user_id":1001,
+                    "text":"안녕하세요.",
+                    "date": 1595740355
+                },
+                {
+                    "id":5,
+                    "user_id":2,
+                    "text":"안녕하세요.",
+                    "date": 1595740255
+                },
+            ]
+        }
+    ]
+}

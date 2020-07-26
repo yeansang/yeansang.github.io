@@ -1,0 +1,9 @@
+{
+    "result_code" : 0,
+    "result": {
+        "user_name":"홍길동",
+        "user_id":1001,
+        "user_desc":"CEO @가가컴퍼니",
+        "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "result_code" : 0,
+    "result": [
+        {
+            "user_name":"최길동",
+            "user_id":1,
+            "user_desc":"CTO @가가컴퍼니",
+            "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+        },
+        {
+            "user_name":"강길동",
+            "user_id":2,
+            "user_desc":"CTO @나나컴퍼니",
+            "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+        },
+        {
+            "user_name":"David",
+            "user_id":3,
+            "user_desc":"CTO @모모컴퍼니",
+            "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+        },
+        {
+            "user_name":"장영실",
+            "user_id":4,
+            "user_desc":"CTO @nn컴퍼니",
+            "profile_url":"https://avatars1.githubusercontent.com/u/13178110?s=60&v=4"
+        },
+    }
+}
